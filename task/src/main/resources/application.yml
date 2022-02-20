@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/chain_data
+    username: root
+    password: 123456
+    driverClassName: com.mysql.jdbc.Driver
+
+
+
+eth.baseUrl: https://mainnet.infura.io/
+eth.chain: ETH
+eth.callPath: v3/9aa3d95b3bc440fa88ea12eaa4456161
+
+heco.baseUrl: https://http-mainnet.hecochain.com/
+heco.chain: HECO
+heco.callPath:
+
+
+#打开SQL日志--控制台输出
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

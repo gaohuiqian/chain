@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.huiqian.data.moniter.task.util.SpringContextUtil,\
+com.huiqian.data.moniter.task.TaskStarter
